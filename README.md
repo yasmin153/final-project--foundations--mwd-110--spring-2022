@@ -21,6 +21,19 @@ For this final project, you’re building a portfolio-themed web site of your sc
 I encourage you to consider both traditional web design elements (navigations on top, 960 pixel widths, etc) and non-traditional elements (navigation elements perhaps on the bottom, non-linear display of content, etc). Experiment!
 
 ---
+
+## ❖・File List・❖
+**Note**: Git-related files are not listed below.
+
+1. `README.md`
+2. `index.html`
+3. `scss/_reset.css`
+3. `scss/_variables.css`
+4. `scss/style.css`
+5. `img/`
+6. `js/`
+
+---
 ## ❖・Grading・❖
 | Item                                             | Points |
 |--------------------------------------------------|:------:|
