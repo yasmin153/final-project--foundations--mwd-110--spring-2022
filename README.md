@@ -34,6 +34,33 @@ I encourage you to consider both traditional web design elements (navigations on
 6. `js/`
 
 ---
+
+## ❖・Rules・❖
+### Design-Related Rules
+* Your project must be a multi-page site consisting of at least three pages: `about`, `contact`, `gallery/portfolio`.
+* Use no more than three colors and a neutral.
+* Use no more than two typefaces, both from [Google Fonts](https://fonts.google.com/).
+* You **must** design at least three versions of your site: mobile, tablet, and desktop/laptop.
+* No lorem ipsum content; that is, no filler content.
+
+### Code-Related Rules
+* You must use Sass to style this project. **Note**: CSS is ignored in this project.
+* You must leverage and expand on the existing Sass files in the `scss` folder, without altering the reset document: `_reset.scss`, `_variables.scss`, and `style.scss`. Consider adding the following alias to your command line’s alias file: `sass --style=compressed --update --watch`.
+* There is **no** need to invoke multiple `“preconnect”` link types for your Google Fonts. The only one you’ll need is already in the included `index.html` file.
+
+### Scaffold-Related Rules
+* Only submit files that are required by your project: Do not submit working files, such as `.psd`, `.ai`, `.indd`, or `.sketch` files.
+* Use lowercase, combined with kebab case, to name folders and files (`do-this` or `do-this.html`); no spaces in folder or file names (`not this`); no camel case (`notThis`); no snake case (`not_this`).
+* All HTML files must go in the root of this folder, with the `index.html` file acting as the springboard for your site. If you design a site with multiple folders, make sure to update the `.gitignore` file in the root of this project so it’s not ignored in your submission.
+* All Sass must go in the `scss` folder and generate CSS into a sibling folder called `css`.
+* If you use images, they must go in the `img` folder.
+* Any images you include **must** be smaller than or equal to 1MB.
+* If you use audio, their files must use the `mp3` extension.
+* If you use Video, their files must use the `mp4` extension.
+* If you use jQuery and/or JavaScript, their files must go in the `js` folder. If you’re not using either language, then you may delete the `js` folder.
+* Ensure there are no absolute paths anywhere in your project.
+
+---
 ## ❖・Grading・❖
 | Item                                             | Points |
 |--------------------------------------------------|:------:|
