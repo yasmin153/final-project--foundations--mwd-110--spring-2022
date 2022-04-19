@@ -1,0 +1,15 @@
+@use 'variables' as *;
+@use 'reset';
+
+body {
+  font-family: $font-stack--reading;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack--headings;
+}
