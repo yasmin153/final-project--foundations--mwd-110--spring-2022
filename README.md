@@ -38,7 +38,7 @@ I encourage you to consider both traditional web design elements (navigations on
 | Item                                             | Points |
 |--------------------------------------------------|:------:|
 | *HTML is W3C-compliant*                          | `20`   |
-| *CSS is W3C-compliant*                           | `20`   |
+| *Sass is generates valid W3c-Compliant CSS*      | `20`   |
 | *Code is clean, neat, and organized*             | `20`   |
 | *Design shows attempt at producing quality work* | `20`   |
 | *Rules for this assignment followed correctly*   | `20`   |
