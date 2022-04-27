@@ -14,15 +14,36 @@ h4,
 h5,
 h6 {
   font-family: $font-stack--headings;
+  text-align: center;
+  background-color: $back-color;
+  padding: 20px;
+  color: $font-color;
+  font-size: 33px;
 }
 
 nav {
   ul {
     text-align: center;
     padding-top: 1px;
+    padding: 20px;
     position: absolute;
     li {
       display: inline-block;
+    a {
+      padding: 5px;
+      font-size: 27px;
+      color: $font-color;
+    }
     }
   }
+}
+
+.first-img {
+  height: 440px;
+  width: 450px;
+  display: block;
+  margin: auto;
+  border-radius: 245px;
+  margin-top: 40px;
+  box-shadow: 0 0 55px $back-color;
 }
