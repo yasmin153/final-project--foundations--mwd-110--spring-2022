@@ -1,5 +1,6 @@
 @use 'variables' as *;
 @use 'reset';
+@use "sass:math";
 
 body {
   margin: auto;
@@ -18,23 +19,54 @@ h6 {
   background-color: $back-color;
   padding: 20px;
   color: $font-color;
-  font-size: 33px;
+  font-size: 70px;
 }
 
 nav {
   ul {
     text-align: center;
     padding-top: 1px;
-    padding: 20px;
+    padding: 30px;
     position: absolute;
     li {
       display: inline-block;
     a {
-      padding: 5px;
-      font-size: 27px;
+      padding: 6px;
+      font-size: 40px;
       color: $font-color;
+      font-family: $font-stack--headings;
+      &:hover {
+        color: $primary-color;
+      }
     }
-    }
+  }
+}
+}
+
+main {
+  p {
+    font-size: 50px;
+    text-align: center;
+    padding: 25px;
+    color: $font-color;
+    font-family: $font-stack--reading;
+  }
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 35px;
+    height:1555px;
+  }
+  .about {
+    font-size: 30px;
+    text-align: center;
+    color: $font-color;
+    font-family: $font-stack--reading;
+    margin: -15px;
+    line-height: 40px;
   }
 }
 
@@ -47,3 +79,22 @@ nav {
   margin-top: 40px;
   box-shadow: 0 0 55px $back-color;
 }
+/*
+@media (min-width: $breakpoint--phone) {
+  body {
+    width: auto;
+  }
+}
+
+@media (min-width: $breakpoint--tablet) {
+  body {
+    width: $breakpoint--tablet;
+  }
+}
+
+@media (min-width: $breakpoint--desktop) {
+  body {
+    width: (12 * $grid--unit);
+  }
+}
+*/

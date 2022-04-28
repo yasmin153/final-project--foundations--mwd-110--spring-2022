@@ -1,5 +1,13 @@
-$font-stack--headings: 'Roboto Mono', monospace, serif;
-$font-stack--reading: 'Teko', sans-serif;
-$primary-color: #8195fb;
-$back-color: #fb81c4;
-$font-color: rgb(244, 238, 238);
+$font-stack--headings: 'Teko', sans-serif;
+$font-stack--reading: 'Open Sans', sans-serif;
+$primary-color: #fadbaa;
+$back-color: #a7d7e6;
+$font-color: rgb(0, 0, 0);
+/*
+$grid--column: 60px;
+$grid--gutter: math.div($grid--column, 3);
+$breakpoint--phone: (5 * $grid--unit);
+$grid--unit: ($grid--column + $grid--gutter);
+$breakpoint--desktop: (15 * $grid--unit);
+$breakpoint--tablet: (10 * $grid--unit);
+*/
