@@ -60,6 +60,17 @@ main {
     margin-top: 35px;
     height:1555px;
   }
+  .contact {
+     a {
+      font-size: 40px;
+      color: $font-color;
+      font-family: $font-stack--headings;
+      text-align: center;
+      margin-top: 70px;
+      display: block;
+    }
+  }
+
   .about {
     font-size: 30px;
     text-align: center;
