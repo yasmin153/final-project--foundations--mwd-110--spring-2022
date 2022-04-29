@@ -19,7 +19,7 @@ h6 {
   background-color: $back-color;
   padding: 20px;
   color: $font-color;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 nav {
@@ -32,7 +32,7 @@ nav {
       display: inline-block;
       a {
         padding: 6px;
-        font-size: 40px;
+        font-size: 25px;
         color: $font-color;
         font-family: $font-stack--headings;
         &:hover {
@@ -45,7 +45,7 @@ nav {
 
 main {
   p {
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     padding: 25px;
     color: $font-color;
@@ -87,8 +87,8 @@ main {
 }
 
 .first-img {
-  height: 405px;
-  width: 400px;
+  height: 415px;
+  width: 410px;
   display: block;
   margin: auto;
   border-radius: 245px;
