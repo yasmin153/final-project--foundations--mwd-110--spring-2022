@@ -3,11 +3,11 @@ $font-stack--reading: 'Zen Kaku Gothic New', sans-serif;
 $primary-color: #d0bea8;
 $back-color: #ccd4d7;
 $font-color: #0f3d6a;
-/*
-$grid--column: 60px;
-$grid--gutter: math.div($grid--column, 3);
-$breakpoint--phone: (5 * $grid--unit);
+//gride -based variables 
+$grid--column: 120px;
+$grid--gutter: calc($grid--column / 3);
 $grid--unit: ($grid--column + $grid--gutter);
+//breakpoints
+$breakpoint--phone: (5 * $grid--unit);
 $breakpoint--desktop: (15 * $grid--unit);
 $breakpoint--tablet: (10 * $grid--unit);
-*/
