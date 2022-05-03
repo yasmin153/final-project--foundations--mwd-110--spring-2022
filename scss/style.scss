@@ -4,7 +4,6 @@
 
 body {
   margin: auto;
-  height:1370px;
   font-family: $font-stack--reading;
   background-color: $primary-color;
 
@@ -12,10 +11,10 @@ body {
     width: auto;
   }
   @media (min-width: $breakpoint--tablet) {
-    width: $breakpoint--tablet;
+    width: auto;
   }
   @media (min-width: $breakpoint--desktop) {
-    width: (12 * $grid--unit);
+    width: auto;
   }
 }
 
@@ -28,10 +27,8 @@ h6 {
   font-family: $font-stack--headings;
   text-align: center;
   background-color: $back-color;
-  padding: 20px;
   color: $font-color;
   font-size: 60px;
-  margin: auto;
 }
 
 nav {
@@ -43,7 +40,7 @@ nav {
       display: inline-block;
       a {
         padding: 5px;
-        font-size: 20px;
+        font-size: 17px;
         color: $font-color;
         font-family: $font-stack--headings;
         &:hover {
