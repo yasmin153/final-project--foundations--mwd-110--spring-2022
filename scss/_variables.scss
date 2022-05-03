@@ -4,7 +4,7 @@ $primary-color: #d0bea8;
 $back-color: #ccd4d7;
 $font-color: #0f3d6a;
 //gride -based variables 
-$grid--column: 120px;
+$grid--column: 60px;
 $grid--gutter: calc($grid--column / 3);
 $grid--unit: ($grid--column + $grid--gutter);
 //breakpoints
