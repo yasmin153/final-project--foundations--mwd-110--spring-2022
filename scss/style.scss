@@ -70,9 +70,18 @@ main {
     margin-top: 35px;
   }
 
+  .intro {
+    font-size: 25px;
+    text-align: center;
+    color: $font-color;
+    font-family: $font-stack--reading;
+    margin: -15px;
+    line-height: 40px;
+  }
+
   .about-fat {
     font-size: 37px;
-    text-align: center;
+    text-align: left;
     padding: 40px;
     margin: 10px;
     line-height: 70px;
@@ -90,15 +99,6 @@ main {
         color: $back-color;
       }
     }
-  }
-
-  .intro {
-    font-size: 25px;
-    text-align: center;
-    color: $font-color;
-    font-family: $font-stack--reading;
-    margin: -15px;
-    line-height: 40px;
   }
 }
 
