@@ -61,14 +61,6 @@ main {
     font-family: $font-stack--reading;
   }
 
-  .about-fat {
-    font-size: 37px;
-    text-align: center;
-    padding: 40px;
-    margin: 10px;
-    line-height: 70px;
-  }
-
   div {
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +68,14 @@ main {
     align-items: center;
     align-content: center;
     margin-top: 35px;
+  }
+
+  .about-fat {
+    font-size: 37px;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    line-height: 70px;
   }
 
   .contact {
